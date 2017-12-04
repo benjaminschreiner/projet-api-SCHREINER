@@ -86,9 +86,6 @@ app.post('/product', function (req, res) {
    }
 })
 
-
-
-
 //Methode get produit by id
 
 app.get('product/:id_product', function (req, res) {
@@ -115,7 +112,7 @@ app.get('product/:id_product', function (req, res) {
 })
 
 
-//Method Post produit
+//Method Post commmande
 
 app.post('user/:id_user', function (req, res) {
 	//preparation du Json
